@@ -2,6 +2,7 @@ import { useState } from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
 import toast from "react-hot-toast";
 import axios from "axios";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 export const Contact = () => {
   const [formData, setFormData] = useState({
@@ -107,6 +108,29 @@ export const Contact = () => {
               Send Message
             </button>
           </form>
+          <div className="mt-10 flex justify-center gap-6">
+            <a
+              href="https://github.com/shreshth-v"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white/5 border border-white/10 hover:border-blue-500/30 
+               text-white p-4 rounded-full transition hover:-translate-y-1 
+               hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]"
+            >
+              <FaGithub size={20} />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/shreshth21/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white/5 border border-white/10 hover:border-blue-500/30 
+               text-white p-4 rounded-full transition hover:-translate-y-1 
+               hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]"
+            >
+              <FaLinkedinIn size={20} />
+            </a>
+          </div>
         </div>
       </RevealOnScroll>
     </section>

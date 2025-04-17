@@ -4,12 +4,18 @@ Welcome to my **personal portfolio** website built using React.js and Tailwind C
 
 ---
 
+## 🔗 Live Demo
+
+## 👉 https://protfolio-sepia-eta.vercel.app
+
+---
+
 ## 🚀 Tech Stack
 
 - **React.js**
 - **Tailwind CSS**
 - **Framer Motion** (animations)
-- **EmailJS / Formspree** (contact form integration)
+- **Formspree** (contact form integration)
 - **Vite** (build tool)
 - **GitHub Pages / Vercel** (deployment)
 
